@@ -4,57 +4,24 @@ let categorias = [
     { id: 3, nome: 'Bebidas' },
 ];
 
+
 let produtos = [
-    //Bolos caseiros
     {
+        id: 1,
         categoriaId: 1,
         nome: 'Bolo de Cenoura',
-        descricao: "Bolo de Cenoura com recheio de chocolate",
+        descricao: 'Bolo fofinho de cenoura com cobertura de chocolate.',
         preco: 16.00,
-        imagem: 'https://www.receitasnestle.com.br/receitas/bolo-de-cenoura-com-cobertura-de-brigadeiro'
+        imagem: 'bolo_cenoura.jpg'
     },
     {
-        categoriaId: 1,
-        nome: 'Bolo de Chocolate',
-        descricao: "Bolo de Chocolate com recheio de chocolate",
-        preco: 17.00,
-        imagem: 'https://www.oetker.com.br/receitas/r/bolo-de-chocolate-com-cobertura-de-brigadeiro'
-    },
-    {
-        categoriaId: 1,
-        nome: 'Bolo de Fubá',
-        descricao: "Bolo de Fubá com recheio de goiabada",
-        preco: 18.90,
-        imagem: 'https://msabores.com/bolo-de-fuba-com-goiabada/'
-    },
-   
-
-    //Docinhos
-    {
+        id: 2,
         categoriaId: 2,
-        nome: 'Brigadeiro de chocolate',
-        descricao: "1 brigadeiro de chocolate com granulados",
-        preco: 3.50,
-        imagem: 'https://docepedia.com/receitas/brigadeiro-gourmet-de-chocolate-meio-amargo-namur'
-    },
-    {
-        categoriaId: 2,
-        nome: 'Beijinho',
-        descricao: "Brigadeiro de coco",
-        preco: 2.50,
-        imagem: 'hhttps://www.receitasnestle.com.br/receitas/beijinho'
-    },
-   
-
-    //Bebidas
-    {
-        categoriaId: 3,
-        nome: 'Água',
-        descricao: "Guarrafa de água 500ml.",
-        preco: 3.90,
-        imagem: 'https://aguamineralhydrate.com.br/produto/garrafa-agua-mineral-1-5-litros/'
-    },
-   
+        nome: 'Brigadeiro',
+        descricao: 'Docinho de chocolate feito com leite condensado, cacau e manteiga.',
+        preco: 3.00,
+        imagem: 'brigadeiro.jpg'
+    }
 ];
 
 // ─── Exportação dos dados ─────────────────────────────────────
